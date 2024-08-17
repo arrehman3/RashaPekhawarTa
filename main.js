@@ -34,7 +34,7 @@ form.onsubmit = async (ev) => {
           variable "${promptInput.value}", provide a comprehensive response. 
           Include detailed daily itineraries, top dining spots, and must-see attractions. 
           Ensure you account for travel logistics, such as travel times and 
-          operational hours of venues.`, }
+          operational hours of venues,Incorporate the BRT (Bus Rapid Transit) system into the travel plan. Recommend specific BRT stops and bus routes that the visitor should take to reach their destinations efficiently. Offer clear guidance on which bus to board and the exact stops to get on and off.`, }
         ]
       }
     ];

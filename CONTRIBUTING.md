@@ -1,20 +1,20 @@
-## Welcome to Karachi Chal!
+## Welcome to Rasha Pekhawar Ta!
 
-Thanks for your interest in making Karachi Chal even better! We're excited to build an amazing itinerary planner with the help of our community.  Here's how you can contribute:
+Thanks for your interest in making Rasha Pekhawar Ta even better! We're excited to build an amazing itinerary planner with the help of our community.  Here's how you can contribute:
 
 **Types of Contributions**
 
 * **Code:** Help us refine the itinerary generation logic, improve the user interface, or tackle open issues on our GitHub repo.
-* **Data Curation:**  Expand our Karachi-specific dataset with amazing points of interest, local events, accurate timings, and hidden gems. 
+* **Data Curation:**  Expand our Peshawar-specific dataset with amazing points of interest, local events, accurate timings, and hidden gems. 
 * **Documentation:** Improve our README, help with user guides, or documentation within the codebase.
-* **Testing and Feedback:**  Try out Karachi Chal and report any bugs or areas where the user experience could be improved.
-* **Ideas & Feature Requests:** Share your creative ideas for enhancing Karachi Chal's capabilities!
+* **Testing and Feedback:**  Try out Rasha Pekhawar Ta and report any bugs or areas where the user experience could be improved.
+* **Ideas & Feature Requests:** Share your creative ideas for enhancing Rasha Pekhawar Ta's capabilities!
 
 **Getting Started**
 
-1. **Check Our Issues:**  Browse the [open issues](https://github.com/codeforpakistan/karachi-chal/issues)  to see where we need help.
-2. **Communication:**  For questions, discussions, or just to share your Karachi knowledge, join us on [Insert Discord link or preferred platform]
-3. **Fork the Repo and Branch:** Create a fork of the Karachi Chal repository and create a new branch for your specific changes.
+1. **Check Our Issues:**  Browse the [open issues](insert link here)  to see where we need help.
+2. **Communication:**  For questions, discussions, or just to share your Peshawar knowledge, join us on [Insert Discord link or preferred platform]
+3. **Fork the Repo and Branch:** Create a fork of the Rasha Pekhawar Ta repository and create a new branch for your specific changes.
 
 **Submitting Changes**
 
@@ -27,7 +27,7 @@ Thanks for your interest in making Karachi Chal even better! We're excited to bu
 * **License:** By contributing, you agree to license your work under the project's MIT License.
 * **Code of Conduct:**  We expect all contributors to uphold the principles outlined in our Code of Conduct [Link to Code of Conduct].
 
-**Let's build the best Karachi itinerary planner together!**
+**Let's build the best Peshawar itinerary planner together!**
 
 **Customize This!**
 

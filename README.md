@@ -1,29 +1,34 @@
-# Karachi Chal: Your Gen AI Karachi Trip Planner
-## What is Karachi Chal?
+# Rasha Peshawar Ta: Your AI-Powered Peshawar Travel Guide
+## Introduction to Rasha Peshawar Ta
 
-Karachi Chal is a cutting-edge, AI-powered itinerary planner that helps you discover the best of Karachi. Powered by Google's Gemini language model, it understands your interests and constraints to create personalized itineraries that go beyond generic tourist guides.
+Rasha Peshawar Ta is an innovative AI-driven itinerary planner designed to help you explore the rich heritage and hidden treasures of Peshawar. Leveraging the power of Google's Gemini language model, it tailors personalized itineraries that align with your specific interests and travel constraints, offering more than just a standard tourist experience.
 
-## Features
+## Key Features
 
-Intuitive User Input: Tell Karachi Chal about your travel dates, preferences (food, history, off-the-beaten path, etc.), and any special requirements, and it gets to work.
-AI-Generated Itineraries: Karachi Chal suggests itineraries that include:
-Must-see Karachi landmarks and hidden gems
-Route suggestions and transportation tips
-Local food recommendations
-Evolving with Karachi: Karachi Chal continually learns from updated data sources and user feedback so its recommendations stay fresh.
-## How to Use
+Smart User Input: Simply provide Rasha Peshawar Ta with your travel dates, preferences (such as culinary delights, historical landmarks, or off-the-beaten-path adventures), and any unique requirements. The planner will take care of the rest.
 
-Visit the Karachi Chal web app: [Insert link when live]
-Fill out the simple form with your trip details and interests.
-Get your personalized Karachi itinerary in minutes!
+AI-Crafted Itineraries: Rasha Peshawar Ta generates custom itineraries that feature:
 
-## How to Contribute
+Iconic Peshawar landmarks and lesser-known spots
+Optimized routes and transportation advice
+Recommendations for authentic local cuisine
+Always Up-to-Date: Rasha Peshawar Ta evolves continuously, integrating the latest data and user feedback to keep its recommendations relevant and exciting.
 
-Karachi Chal is an open-source project that thrives on community contributions! Here's how you can help:
+## Getting Started
 
-Data Curation: Help build a Karachi-specific dataset:
-Points of interest (with descriptions, opening hours, etc.)
-Local events and festival listings
-Transport routes and timetable data
-Model Refinement: Work on improving Gemini's understanding of Karachi-centric language and queries.
-Frontend Development: Enhance the web interface for a seamless user experience.
+Access the Rasha Peshawar Ta web app: [Insert link when available]
+Enter your travel details and interests into the user-friendly form.
+Receive a tailored itinerary for your Peshawar trip within minutes!
+
+## Contribute to Rasha Pekhawar Ta
+
+Rasha Peshawar Ta is an open-source initiative that grows with contributions from the community. Here’s how you can get involved:
+
+Data Enrichment: Assist in building a comprehensive Peshawar-specific dataset, including:
+
+Detailed descriptions of points of interest
+Listings of local events and festivals
+Information on transport routes and schedules
+Model Improvement: Help refine Gemini’s ability to understand and respond to Peshawar-specific queries and language nuances.
+
+UI/UX Development: Contribute to enhancing the web interface for a smooth and engaging user experience.
