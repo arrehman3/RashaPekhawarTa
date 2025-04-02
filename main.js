@@ -42,7 +42,7 @@ form.onsubmit = async (ev) => {
     // Call the gemini-pro model, and get a stream of results
     const genAI = new GoogleGenerativeAI(API_KEY);
     const model = genAI.getGenerativeModel({
-      model: "gemini-pro",
+      model: "gemini-1.5-pro",
 
       safetySettings: [
         {
