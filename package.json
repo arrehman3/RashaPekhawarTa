@@ -11,10 +11,9 @@
   "dependencies": {
     "@google/generative-ai": "^0.1.0",
     "base64-js": "^1.5.1",
-    "dotenv": "^16.0.3",
-    "leaflet": "^1.9.4",
     "markdown-it": "^13.0.2",
-    "photoswipe": "^5.4.4"
+    "dotenv": "^16.0.3"
+    
   },
   "devDependencies": {
     "vite": "^4.4.5"

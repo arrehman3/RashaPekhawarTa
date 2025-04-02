@@ -1,7 +1,6 @@
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 import MarkdownIt from 'markdown-it';
-import { initializeMap } from './services/map';
-import { initializeGallery } from './services/gallery';
+
 import './style.css';
 
 
@@ -16,10 +15,6 @@ let message = document.querySelector('.message');
   
 message.style.display = 'none';
 
-document.addEventListener('DOMContentLoaded', () => {
-  initializeMap('map');
-  initializeGallery('gallery');
-});
 form.onsubmit = async (ev) => {
   ev.preventDefault();
 
