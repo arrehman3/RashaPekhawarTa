@@ -1,4 +1,325 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url("/public/IslamiaCollege_Peshawar.jpg");
+  background-image: url("./public/IslamiaCollege_Peshawar.jpg");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+/* Overlay for better readability */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+/* Navigation */
+nav.level {
+  padding: 20px 0;
+  background: transparent;
+  margin-bottom: 0;
+}
+
+nav .level-item img {
+  transition: transform 0.3s ease;
+}
+
+nav .level-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Main container */
+main {
+  padding: 20px 0;
+}
+
+.container.is-max-desktop {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Form styling */
+.box.is-clearfix {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box.is-clearfix:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field */
+.input.is-large {
+  border: 2px solid rgba(255, 128, 0, 0.3);
+  border-radius: 15px;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input.is-large:focus {
+  border-color: rgba(255, 128, 0, 0.8);
+  box-shadow: 0 0 0 3px rgba(255, 128, 0, 0.2);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.input.is-large::placeholder {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Button styling */
+.button.is-info {
+  background: linear-gradient(135deg, rgba(255, 128, 0, 0.9), rgba(255, 128, 0, 0.7));
+  border: none;
+  border-radius: 15px;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(255, 128, 0, 0.3);
+  margin-top: 15px;
+}
+
+.button.is-info:hover {
+  background: linear-gradient(135deg, rgba(255, 128, 0, 1), rgba(255, 128, 0, 0.8));
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(255, 128, 0, 0.4);
+}
+
+.button.is-info:active {
+  transform: translateY(-1px);
+}
+
+/* Message/Output styling */
+.message.is-info {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.message.is-info:hover {
+  transform: translateY(-3px);
+}
+
+.message-header {
+  background: linear-gradient(135deg, rgba(255, 128, 0, 0.9), rgba(255, 128, 0, 0.7));
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.message-body {
+  background: rgba(255, 255, 255, 0.95);
+  color: #2c3e50;
+  padding: 25px;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  border-radius: 0 0 20px 20px;
+  min-height: 200px;
+}
+
+/* Output content styling */
+.output {
+  color: #2c3e50;
+}
+
+.output h1, .output h2, .output h3 {
+  color: rgba(255, 128, 0, 0.8);
+  margin: 15px 0 10px 0;
+  font-weight: 600;
+}
+
+.output p {
+  margin-bottom: 15px;
+}
+
+.output ul, .output ol {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+.output li {
+  margin-bottom: 8px;
+}
+
+.output strong {
+  color: rgba(255, 128, 0, 0.8);
+  font-weight: 600;
+}
+
+/* Loading skeleton */
+.skeleton-block {
+  height: 20px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Footer styling */
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 30px 0;
+  margin-top: 50px;
+  border-top: 2px solid rgba(255, 128, 0, 0.3);
+}
+
+.footer a {
+  color: rgba(255, 128, 0, 0.9);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: rgba(255, 128, 0, 1);
+  text-decoration: underline;
+}
+
+.footer .simple {
+  color: #3498db;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav .level-item img {
+    height: 200px !important;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .box.is-clearfix {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .input.is-large {
+    font-size: 1rem;
+    padding: 12px 15px;
+  }
+  
+  .button.is-info {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .message-header {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  
+  .message-body {
+    padding: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .box.is-clearfix {
+    padding: 15px;
+  }
+  
+  .message-body {
+    padding: 15px;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 128, 0, 0.6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 128, 0, 0.8);
+}
+
+/* Animation for form submission */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.form-submitting {
+  animation: pulse 1s infinite;
+}
+
+/* Error message styling */
+.error-message {
+  background: rgba(231, 76, 60, 0.1);
+  border: 2px solid rgba(231, 76, 60, 0.3);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  color: #c0392b;
+  font-weight: 500;
 }

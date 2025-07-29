@@ -18,11 +18,16 @@
   <meta name="keywords" content="Peshawar, itinerary, planner, AI, travel, tourism">
 
 
-  <title>Rasha Pekhawar Ta</title>
+  <title>Rasha Pekhawar Ta - AI Travel Guide for Peshawar</title>
   <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
-/>
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+  />
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
+  <link rel="icon" type="image/x-icon" href="public/logo.jpg">
 
 <style>
   a{
@@ -53,8 +58,8 @@
     <p class="level-item has-text-centered">
       <img
         src="public/کبھی آو نہ پشاور خوشبو لگا کے.png"
-        alt=""
-        style="height: 400px; border-radius: 20px; margin-bottom: 10px; "
+        alt="Rasha Pekhawar Ta - AI Travel Guide"
+        style="height: 400px; border-radius: 20px; margin-bottom: 10px;"
       />
     </p>
   </nav>
@@ -64,23 +69,32 @@
         
         <form>
           <div class="box is-clearfix">
-            <h1 class="title">Your AI based Itinerary planner for the City of Flowers.</h1>
+            <h1 class="title">Your AI-Powered Itinerary Planner for the City of Flowers</h1>
+            <p class="subtitle has-text-centered" style="color: #7f8c8d; margin-bottom: 25px; font-style: italic;">
+              Discover Peshawar's hidden gems with personalized travel recommendations
+            </p>
             <div class="field">
               <div class="control">
                 <input
-  class="input is-large"
-  type="text"
-  name="prompt" placeholder="Enter itinerary and what you'd like to do here" type="text"
-              value=""
-/>
+                  class="input is-large"
+                  type="text"
+                  name="prompt" 
+                  placeholder="Tell me about your trip to Peshawar... (e.g., 'I want to visit historical sites for 2 days')"
+                  value=""
+                  required
+                />
               </div>
             </div>
-        <!-- <div class="is-pulled-right"> -->
-            <button type="submit" class="button is-info is-pulled-right" 
-            >Zu!!!</button>
-        <!-- </div> -->
-        </div>
-      </form>
+            <div class="has-text-centered">
+              <button type="submit" class="button is-info">
+                <span class="icon">
+                  <i class="fas fa-magic"></i>
+                </span>
+                <span>Create My Itinerary</span>
+              </button>
+            </div>
+          </div>
+        </form>
     </section>
   
 
@@ -88,10 +102,17 @@
       <!-- <p class="output"></p> -->
       <article class="message is-info">
         <div class="message-header">
-          <p>Your Itenerary</p>
+          <p>
+            <span class="icon">
+              <i class="fas fa-map-marked-alt"></i>
+            </span>
+            Your Personalized Itinerary
+          </p>
         </div>
         <div class="message-body output">
           <div class="skeleton-block"></div>
+          <div class="skeleton-block"></div>
+          <div class="skeleton-block" style="width: 70%;"></div>
         </div>
       </article>
     </section>
