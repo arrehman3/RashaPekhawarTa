@@ -88,6 +88,7 @@ main {
   background: rgba(255, 255, 255, 0.9);
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #7f8c8d;
 }
 
 .input.is-large:focus {
@@ -95,6 +96,7 @@ main {
   box-shadow: 0 0 0 3px rgba(255, 128, 0, 0.2);
   outline: none;
   transform: translateY(-2px);
+  color: #7f8c8d;
 }
 
 .input.is-large::placeholder {
