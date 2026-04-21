@@ -45,7 +45,7 @@ form.onsubmit = async (ev) => {
     // Initialize the Gemini API with the latest version
     const genAI = new GoogleGenerativeAI(API_KEY);
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash", // Using the newer, faster model
+      model: "gemini-2.5-flash-lite", // Using the newer, faster model
       safetySettings: [
         {
           category: HarmCategory.HARM_CATEGORY_HARASSMENT,
